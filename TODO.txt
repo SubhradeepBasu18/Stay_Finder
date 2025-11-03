@@ -1,0 +1,29 @@
+Bookings
+
+(1) user can book
+(2) view Bookings 
+(3) cancel bookings
+(4) payment integrate
+
+- User can book, how?
+
+
+(1) Owner registers his PG
+(2) Get all the PGs and display them in cards
+(3) Clicking on View Details
+(4) Redirects to page where Book button available
+(5) Clicking on Book button, opens a form
+(6) Form is filled with PG Details
+(7) User selects Roommate preference and done!
+(8) Booking is send to Owner dashboard
+(9) Owner can direct contact user {fetch user Details from User model using middleware}
+
+First work on PG controller
+
+(1) Save new PG (check role)
+(2) Fetch all PGs
+(3) Update PG Details
+(4) Delete PG {Optional}
+
+- Challenge --> To handle Location correctly
+# MUST VERIFY USER ROLE TO GET OWNER PRIVILEGES
